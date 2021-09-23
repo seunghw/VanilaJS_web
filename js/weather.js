@@ -15,8 +15,8 @@ function onGeoOk(position) {
       )}`;
     });
 }
-function onGeoError(params) {
-  alert("Can't find you. No weaher for you.");
+function onGeoError() {
+  alert("Can't find you.");
 }
 
 navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
