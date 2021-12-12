@@ -9,32 +9,41 @@
     <title>VanilaJS_web</title>
   </head>
   <body>
-    <script src="js/background.js"></script>
-    <form id="login-form" class="hidden">
-      <input
-        required
-        maxlength="15"
-        type="text"
-        placeholder="what is your name"
-      />
-      <button value="">Log In</button>
-    </form>
-    <h2 id="clock">00:00</h2>
-    <h1 class="hidden" id="greeting"></h1>
-    <form id="todo-form">
-      <input type="text" placeholder="Write a To DO and Press Enter" />
-    </form>
-    <ul id="todo-list"></ul>
-    <div id="quote">
-      <span id="content"></span>
-      <span id="name"></span>
+    <script id="background" src="js/background.js"></script>
+    <div id="header">
+      <form id="todo-form">
+        <input type="text" placeholder="Write a To DO and Press Enter" />
+      </form>
+      <ul id="todo-list"></ul>
+
+      <div id="weather">
+        <span></span>
+        <span></span>
+      </div>
     </div>
-    <div id="weather">
-      <span></span>
-      <span></span>
+    <div id="content">
+      <div id="main">
+        <div id="clock"></div>
+        <div id="today-info"></div>
+        <form id="login-form" class="hidden">
+          <input
+            required
+            maxlength="15"
+            type="text"
+            placeholder="what is your name"
+          />
+          <input id="login-button" type="submit" value="Log In"></input>
+        </form>
+
+        <h1 class="hidden" id="greeting"></h1>
+      </div>
+      <div id="quote">
+        <span id="script"></span>
+        <span id="name"></span>
+      </div>
     </div>
-    <script src="js/greeting.js"></script>
     <script src="js/clock.js"></script>
+    <script src="js/greeting.js"></script>
     <script src="js/quotes.js"></script>
     <script src="js/todo.js"></script>
     <script src="js/weather.js"></script>
