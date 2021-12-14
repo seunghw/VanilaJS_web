@@ -5,17 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>VanilaJS_web</title>
   </head>
   <body>
     <script id="background" src="js/background.js"></script>
+    
     <div id="header">
+      <button id="open_btn"><i class="far fa-check-square"></i></button>
+    <div id="modal">
+      
+      <button id="close_btn"><i class="fas fa-times"></i></button>
       <form id="todo-form">
         <input type="text" placeholder="Write a To DO and Press Enter" />
       </form>
       <ul id="todo-list"></ul>
-
+    </div>
       <div id="weather">
         <span></span>
         <span></span>
@@ -47,5 +52,6 @@
     <script src="js/quotes.js"></script>
     <script src="js/todo.js"></script>
     <script src="js/weather.js"></script>
+    <script src="js/modal.js"></script>
   </body>
 </html>

@@ -8,6 +8,10 @@
   display: none;
 }
 
+ul {
+  list-style: none;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   overflow: hidden;
@@ -20,6 +24,8 @@ body {
 }
 
 input {
+  margin-top: 15px;
+  margin-bottom: 15px;
   text-rendering: auto;
   letter-spacing: normal;
   word-spacing: normal;
@@ -29,13 +35,14 @@ input {
   text-shadow: none;
   display: inline-block;
   appearance: auto;
+
   -webkit-rtl-ordering: logical;
   cursor: text;
 }
 #header {
   color: white;
-  display: flex;
-  justify-content: space-between;
+  display: none;
+
   height: 10%;
   justify-content: space-between;
   align-items: center;
@@ -49,6 +56,88 @@ input {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+}
+
+#modal {
+  display: none;
+  position: absolute;
+  top: 70px;
+  border: 5px solid white;
+  border-radius: 50px;
+  padding: 20px;
+
+  color: white;
+  width: 400px;
+  height: 400px;
+  z-index: 1;
+}
+
+#header button {
+  background-color: transparent;
+  border: none;
+  margin-bottom: 10px;
+}
+
+#weather {
+  font-size: 23px;
+}
+
+#weather span {
+  margin-left: 10px;
+}
+
+#weather :hover {
+  font-size: 25px;
+}
+
+#open_btn {
+  color: white;
+  font-size: 30px;
+}
+
+#close_btn {
+  font-size: 25px;
+  color: white;
+  position: absolute;
+  top: 15px;
+  right: 23px;
+}
+
+#open_btn :hover {
+  color: lightgray;
+  font-size: 32px;
+}
+
+#todo-list {
+  font-size: 20px;
+}
+
+#todo-list {
+  font-size: 20px;
+}
+
+#todo-list :hover {
+  color: lightgray;
+}
+
+#todo-list button {
+  margin-left: 5px;
+  font-size: 20px;
+  color: white;
+}
+
+#todo-form input {
+  background: none;
+  border: none;
+  border-bottom: 1px solid lightgray;
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  width: 220px;
+}
+
+#close_btn :hover {
+  color: lightgray;
 }
 
 #main {
