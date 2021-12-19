@@ -6,8 +6,7 @@
 
 ### 메인 페이지(로그인)
 
-<img src="https://user-images.githubusercontent.com/70190106/146682501-d069e3ca-ae4a-412f-9642-17052652c8c0.gif
-" width="600px"/>
+<img src="https://user-images.githubusercontent.com/70190106/146683105-e18467bb-400f-4b89-9d93-9efed21ce118.gif" width="600px"/>
 
 ### 랜덤 배경 및 명언 구현
 
