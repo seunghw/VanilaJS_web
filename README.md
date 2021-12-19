@@ -16,7 +16,6 @@
 ### todo 모달
 
 <img src="https://user-images.githubusercontent.com/70190106/146682558-78d1cefa-aeef-4a0b-8297-47e50c18113f.gif" width="600px"/>
-<img src="test" width="600px"/>
 
 ## 🎯 설명
 
