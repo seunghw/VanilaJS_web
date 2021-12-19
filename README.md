@@ -1,6 +1,6 @@
 # VanilaJS_web
 
-# 🎞 넷플릭스 프로필 관리 페이지
+# 🎞 VanilaJS를 활용한 웹페이지
 
 ## 🎬 Demo
 
