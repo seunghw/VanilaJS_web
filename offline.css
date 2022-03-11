@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  background: none;
+  border: none;
+}
+
+body {
+  display: flex;
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+h1 {
+  margin: 20px 0;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+div:not(:last-child) {
+  margin-bottom: 10px;
+}
